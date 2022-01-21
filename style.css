@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.itemMenu{
+    float: right;
+}
+.iconeMenu{
+    float: left;
+}
+.iconeMenu2{
+    width: 80px;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+
+.itemMenu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.itemMenu:hover{
+    background-color: rgb(7, 112, 81);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+  }
+
+
+
+
