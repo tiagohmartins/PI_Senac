@@ -5,6 +5,10 @@ body{
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+
 
 .itemMenu{
     float: right;
@@ -40,30 +44,30 @@ ul {
     width: 100%;
     height: 90vh;
     background-image: url(../assets/img/banner_1.jpg);
-    background-size: cover;
-    
-    
-    
+    background-size: cover;    
 }
 .btn-get-started {
-    font-family: "Jost", sans-serif;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 10px 28px 11px 28px;
+    padding: 12px 35px;
+    margin-top: 30px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 10px 0 0 0;
     color: #fff;
-    background: #47b2e4;
+    background: #1977cc;
 }
 
 
- .bannerBackgroud{
-    
-    width: 100%;
-    height: 600px
+.section-titulo{
+
+    text-align: center;
+    padding: 30px;
 }
-
-
+.textDicas{
+    text-align: center;
+    padding: 20px;
+}
