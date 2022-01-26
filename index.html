@@ -7,31 +7,59 @@
     <title>RH Tech</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
     <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <!-- CSS Principal -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <nav>        
-                <ul>
-                    <li class="iconeMenu">
-                        <a href="./index.html">
-                            <img class="iconeMenu2" src="./assets/img/logo.png" alt="">
-                        </a>
-                    </li>
-                    <li class="itemMenu"><a href="http://">Sobre</a></li>
-                    <li class="itemMenu"><a href="http://">Para Empresas</a></li>
-                    <li class="itemMenu"><a href="http://">Busca de Vagas</a></li>
-                    <li class="itemMenu"><a href="./cadastrocv.html">Cadastro de CV</a></li>
-                    <li class="itemMenu"><a href="http://">Entrar</a></li>
-                    <li class="itemMenu"><a href="http://">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <!--  NAVBAR  -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">RHTECH</a>
+                
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarCollapse" 
+                    aria-controls="navbarCollapse" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Para Empresas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Busca de Vaga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Entrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item s">
+                                <a class="nav-link active" href="./cadastrocv.html">Cadastre seu CV</a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section id="bannerPrincial" class="d-flex align-items-center bannerBackgroud">
+    <!-- BANNER PRINCIPAL -->
+    <section id="bannerPrincial" class="position-relative d-flex align-items-center bannerBackgroud">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-animate"
@@ -58,21 +86,27 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="icon-box textDicas"> 
-                            <div></div>
+                            <div>
+                                <img src="./assets/img/formulario_300x300.png" alt="">
+                            </div>
                             <h4>Faça seu registro.</h4>
                             <p>Pouco meno de 5 minutos, você cria a sua conta em nosso site</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                         <div class="icon-box textDicas"> 
-                            <div></div>
+                            <div>
+                                <img src="./assets/img/alvo_300x300.png" alt="">
+                            </div>
                             <h4>Momento do Currículo</h4>
                             <p>Cadastreseu currículo o mais completo possivel para serem exibidos para as empresas </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                         <div class="icon-box textDicas"> 
-                            <div></div>
+                            <div>
+                                <img src="./assets/img/contratoassinado_300x300.png" alt="">
+                            </div>
                             <h4>Candidate-se</h4>
                             <p>Busque as melhores vagas no seu perfil e candidate-se!</p>
                         </div>
@@ -89,8 +123,8 @@
     <footer>        
     </footer>  
     
-    <script src="./assets/bootstrap/js/aos.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+      
 </body>
 </html>

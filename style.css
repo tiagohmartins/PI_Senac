@@ -10,41 +10,15 @@ a{
 }
 
 
-.itemMenu{
-    float: right;
-}
-.iconeMenu{
-    float: left;
-}
-.iconeMenu2{
-    width: 80px;
-    padding-left: 5px;
-    padding-top: 2px;    
-}
-
-.itemMenu a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-.itemMenu:hover{
-    background-color: #077051;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #008b8b;
-  }
 #bannerPrincial {
     width: 100%;
     height: 90vh;
-    background-image: url(../assets/img/banner_1.jpg);
-    background-size: cover;    
+    background-image: url(./assets/img/banner_1.jpg);
+    background-size:contain; 
+    background-repeat: no-repeat; 
+    
+    
+    
 }
 .btn-get-started {
     font-family: "Raleway", sans-serif;
@@ -60,8 +34,6 @@ ul {
     color: #fff;
     background: #1977cc;
 }
-
-
 .section-titulo{
 
     text-align: center;
