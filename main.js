@@ -6,3 +6,8 @@ function mostrarSenha(){
         tipo.type="password";
     }
 }
+
+function envioCadastro(){
+    
+    alert("Cadastro enviado com sucesso");
+}
