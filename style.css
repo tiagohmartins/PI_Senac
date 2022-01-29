@@ -15,7 +15,7 @@ a{
 #bannerPrincipal {
     width: 100%;
     height: 91vh;
-    background: url("../PI_Senac/assets/img/banner_1.jpg") top center;
+    background: url("./assets/img/banner_1.jpg") top center;
     background-size:cover; 
     background-position: 0px 30px;
     margin-bottom: -200px;
